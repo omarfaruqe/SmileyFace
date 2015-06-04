@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428F12541B20A1E1002E012F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12531B20A1E1002E012F /* AppDelegate.swift */; };
+		428F12561B20A1E1002E012F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12551B20A1E1002E012F /* ViewController.swift */; };
+		428F12591B20A1E1002E012F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428F12571B20A1E1002E012F /* Main.storyboard */; };
+		428F125B1B20A1E1002E012F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428F125A1B20A1E1002E012F /* Images.xcassets */; };
+		428F125E1B20A1E1002E012F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428F125C1B20A1E1002E012F /* LaunchScreen.xib */; };
+		428F126A1B20A1E1002E012F /* SmileyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12691B20A1E1002E012F /* SmileyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428F12641B20A1E1002E012F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428F12461B20A1E1002E012F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428F124D1B20A1E1002E012F;
+			remoteInfo = Smiley;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428F124E1B20A1E1002E012F /* Smiley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smiley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428F12521B20A1E1002E012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428F12531B20A1E1002E012F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428F12551B20A1E1002E012F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428F12581B20A1E1002E012F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428F125A1B20A1E1002E012F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428F125D1B20A1E1002E012F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428F12631B20A1E1002E012F /* SmileyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428F12681B20A1E1002E012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428F12691B20A1E1002E012F /* SmileyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428F124B1B20A1E1002E012F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F12601B20A1E1002E012F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428F12451B20A1E1002E012F = {
+			isa = PBXGroup;
+			children = (
+				428F12501B20A1E1002E012F /* Smiley */,
+				428F12661B20A1E1002E012F /* SmileyTests */,
+				428F124F1B20A1E1002E012F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428F124F1B20A1E1002E012F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428F124E1B20A1E1002E012F /* Smiley.app */,
+				428F12631B20A1E1002E012F /* SmileyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428F12501B20A1E1002E012F /* Smiley */ = {
+			isa = PBXGroup;
+			children = (
+				428F12531B20A1E1002E012F /* AppDelegate.swift */,
+				428F12551B20A1E1002E012F /* ViewController.swift */,
+				428F12571B20A1E1002E012F /* Main.storyboard */,
+				428F125A1B20A1E1002E012F /* Images.xcassets */,
+				428F125C1B20A1E1002E012F /* LaunchScreen.xib */,
+				428F12511B20A1E1002E012F /* Supporting Files */,
+			);
+			path = Smiley;
+			sourceTree = "<group>";
+		};
+		428F12511B20A1E1002E012F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				428F12521B20A1E1002E012F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		428F12661B20A1E1002E012F /* SmileyTests */ = {
+			isa = PBXGroup;
+			children = (
+				428F12691B20A1E1002E012F /* SmileyTests.swift */,
+				428F12671B20A1E1002E012F /* Supporting Files */,
+			);
+			path = SmileyTests;
+			sourceTree = "<group>";
+		};
+		428F12671B20A1E1002E012F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				428F12681B20A1E1002E012F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428F124D1B20A1E1002E012F /* Smiley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F126D1B20A1E1002E012F /* Build configuration list for PBXNativeTarget "Smiley" */;
+			buildPhases = (
+				428F124A1B20A1E1002E012F /* Sources */,
+				428F124B1B20A1E1002E012F /* Frameworks */,
+				428F124C1B20A1E1002E012F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smiley;
+			productName = Smiley;
+			productReference = 428F124E1B20A1E1002E012F /* Smiley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428F12621B20A1E1002E012F /* SmileyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F12701B20A1E1002E012F /* Build configuration list for PBXNativeTarget "SmileyTests" */;
+			buildPhases = (
+				428F125F1B20A1E1002E012F /* Sources */,
+				428F12601B20A1E1002E012F /* Frameworks */,
+				428F12611B20A1E1002E012F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428F12651B20A1E1002E012F /* PBXTargetDependency */,
+			);
+			name = SmileyTests;
+			productName = SmileyTests;
+			productReference = 428F12631B20A1E1002E012F /* SmileyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428F12461B20A1E1002E012F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Omar Faruqe";
+				TargetAttributes = {
+					428F124D1B20A1E1002E012F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					428F12621B20A1E1002E012F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 428F124D1B20A1E1002E012F;
+					};
+				};
+			};
+			buildConfigurationList = 428F12491B20A1E1002E012F /* Build configuration list for PBXProject "Smiley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428F12451B20A1E1002E012F;
+			productRefGroup = 428F124F1B20A1E1002E012F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428F124D1B20A1E1002E012F /* Smiley */,
+				428F12621B20A1E1002E012F /* SmileyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428F124C1B20A1E1002E012F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F12591B20A1E1002E012F /* Main.storyboard in Resources */,
+				428F125E1B20A1E1002E012F /* LaunchScreen.xib in Resources */,
+				428F125B1B20A1E1002E012F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F12611B20A1E1002E012F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428F124A1B20A1E1002E012F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F12561B20A1E1002E012F /* ViewController.swift in Sources */,
+				428F12541B20A1E1002E012F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F125F1B20A1E1002E012F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F126A1B20A1E1002E012F /* SmileyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428F12651B20A1E1002E012F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428F124D1B20A1E1002E012F /* Smiley */;
+			targetProxy = 428F12641B20A1E1002E012F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428F12571B20A1E1002E012F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428F12581B20A1E1002E012F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428F125C1B20A1E1002E012F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428F125D1B20A1E1002E012F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428F126B1B20A1E1002E012F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428F126C1B20A1E1002E012F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428F126E1B20A1E1002E012F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smiley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		428F126F1B20A1E1002E012F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smiley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		428F12711B20A1E1002E012F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+			};
+			name = Debug;
+		};
+		428F12721B20A1E1002E012F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428F12491B20A1E1002E012F /* Build configuration list for PBXProject "Smiley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F126B1B20A1E1002E012F /* Debug */,
+				428F126C1B20A1E1002E012F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428F126D1B20A1E1002E012F /* Build configuration list for PBXNativeTarget "Smiley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F126E1B20A1E1002E012F /* Debug */,
+				428F126F1B20A1E1002E012F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		428F12701B20A1E1002E012F /* Build configuration list for PBXNativeTarget "SmileyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F12711B20A1E1002E012F /* Debug */,
+				428F12721B20A1E1002E012F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428F12461B20A1E1002E012F /* Project object */;
+}
