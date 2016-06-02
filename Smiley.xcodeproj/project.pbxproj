@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4282A38F1D00A055003C3117 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282A38A1D00A055003C3117 /* FaceViewController.swift */; };
+		4282A3901D00A055003C3117 /* EmotionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282A38B1D00A055003C3117 /* EmotionsController.swift */; };
+		4282A3911D00A055003C3117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4282A38C1D00A055003C3117 /* Main.storyboard */; };
+		4282A3921D00A055003C3117 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282A38D1D00A055003C3117 /* FaceView.swift */; };
+		4282A3931D00A055003C3117 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282A38E1D00A055003C3117 /* FacialExpression.swift */; };
 		428F12541B20A1E1002E012F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12531B20A1E1002E012F /* AppDelegate.swift */; };
-		428F12561B20A1E1002E012F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12551B20A1E1002E012F /* ViewController.swift */; };
-		428F12591B20A1E1002E012F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428F12571B20A1E1002E012F /* Main.storyboard */; };
 		428F125B1B20A1E1002E012F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428F125A1B20A1E1002E012F /* Images.xcassets */; };
 		428F125E1B20A1E1002E012F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428F125C1B20A1E1002E012F /* LaunchScreen.xib */; };
 		428F126A1B20A1E1002E012F /* SmileyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F12691B20A1E1002E012F /* SmileyTests.swift */; };
@@ -26,11 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4282A38A1D00A055003C3117 /* FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		4282A38B1D00A055003C3117 /* EmotionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsController.swift; sourceTree = "<group>"; };
+		4282A38C1D00A055003C3117 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4282A38D1D00A055003C3117 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		4282A38E1D00A055003C3117 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		428F124E1B20A1E1002E012F /* Smiley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smiley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428F12521B20A1E1002E012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		428F12531B20A1E1002E012F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		428F12551B20A1E1002E012F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		428F12581B20A1E1002E012F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		428F125A1B20A1E1002E012F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		428F125D1B20A1E1002E012F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		428F12631B20A1E1002E012F /* SmileyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,11 +83,11 @@
 		428F12501B20A1E1002E012F /* Smiley */ = {
 			isa = PBXGroup;
 			children = (
-				428F12531B20A1E1002E012F /* AppDelegate.swift */,
-				428F12551B20A1E1002E012F /* ViewController.swift */,
-				428F12571B20A1E1002E012F /* Main.storyboard */,
-				428F125A1B20A1E1002E012F /* Images.xcassets */,
-				428F125C1B20A1E1002E012F /* LaunchScreen.xib */,
+				4282A38A1D00A055003C3117 /* FaceViewController.swift */,
+				4282A38B1D00A055003C3117 /* EmotionsController.swift */,
+				4282A38C1D00A055003C3117 /* Main.storyboard */,
+				4282A38D1D00A055003C3117 /* FaceView.swift */,
+				4282A38E1D00A055003C3117 /* FacialExpression.swift */,
 				428F12511B20A1E1002E012F /* Supporting Files */,
 			);
 			path = Smiley;
@@ -90,6 +96,9 @@
 		428F12511B20A1E1002E012F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				428F125C1B20A1E1002E012F /* LaunchScreen.xib */,
+				428F125A1B20A1E1002E012F /* Images.xcassets */,
+				428F12531B20A1E1002E012F /* AppDelegate.swift */,
 				428F12521B20A1E1002E012F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +165,8 @@
 		428F12461B20A1E1002E012F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Omar Faruqe";
 				TargetAttributes = {
@@ -192,7 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428F12591B20A1E1002E012F /* Main.storyboard in Resources */,
+				4282A3911D00A055003C3117 /* Main.storyboard in Resources */,
 				428F125E1B20A1E1002E012F /* LaunchScreen.xib in Resources */,
 				428F125B1B20A1E1002E012F /* Images.xcassets in Resources */,
 			);
@@ -212,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428F12561B20A1E1002E012F /* ViewController.swift in Sources */,
+				4282A3901D00A055003C3117 /* EmotionsController.swift in Sources */,
 				428F12541B20A1E1002E012F /* AppDelegate.swift in Sources */,
+				4282A3931D00A055003C3117 /* FacialExpression.swift in Sources */,
+				4282A38F1D00A055003C3117 /* FaceViewController.swift in Sources */,
+				4282A3921D00A055003C3117 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		428F12571B20A1E1002E012F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				428F12581B20A1E1002E012F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		428F125C1B20A1E1002E012F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Smiley/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Smiley/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +419,7 @@
 				428F126F1B20A1E1002E012F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		428F12701B20A1E1002E012F /* Build configuration list for PBXNativeTarget "SmileyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				428F12721B20A1E1002E012F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
